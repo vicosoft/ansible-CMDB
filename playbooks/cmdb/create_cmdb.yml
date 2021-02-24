@@ -1,0 +1,27 @@
+---       
+#################################################################################################
+## Description: Create inventory for CMBD
+##        
+## Notes:       - This play has to be executed with limit and extra-vars
+##              --extra-vars="cmdb_host=HOSTNAME"
+##        
+##        
+##        
+## Version:     1.0
+## Dpto.:       Infraestructure
+## Author:      Jose Antonio Vico Palomino
+## Date:        22 Feb 2021
+##################################################################################################
+          
+# Plays   
+#================================================================================================
+# This play will:
+# - Create in CMDB directory two files for server.
+#================================================================================================
+
+#- hosts: "{{ cmdb_host | default('all') }}"
+- hosts: "{{ cmdb_host }}"
+  roles:  
+    - cmdb/create_cmdb
+
+#================================================================================================
