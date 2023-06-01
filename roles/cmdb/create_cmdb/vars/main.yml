@@ -1,2 +1,2 @@
 # Define directory
-directory_cmdb: /home/ultralord/sources/lmes-ansible-infra/CMDB
+directory_cmdb: $HOME/sources/CMDB

@@ -1,7 +1,4 @@
 ---
-#- hosts: *
-#  become: no
-#  tasks:
 - name: Gather the package facts
   package_facts:
     manager: auto

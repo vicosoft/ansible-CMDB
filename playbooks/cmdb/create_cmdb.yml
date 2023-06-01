@@ -7,10 +7,11 @@
 ##        
 ##        
 ##        
-## Version:     1.0
+## Version:     1.1
 ## Dpto.:       Infraestructure
 ## Author:      Jose Antonio Vico Palomino
-## Date:        22 Feb 2021
+## GitHub:      https://github.com/vicosoft/ansible-CMDB
+## Date:        1 Jun 2023
 ##################################################################################################
           
 # Plays   
